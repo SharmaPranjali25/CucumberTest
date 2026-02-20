@@ -27,11 +27,11 @@ public class loginPage {
         driver.findElement(btn_login).click();
     }
 
-    public void login(String username, String password){
-        driver.findElement(txt_username).sendKeys(username);
-        driver.findElement(txt_password).sendKeys(password);
-        driver.findElement(btn_login).click();
-    }
+//    public void login(String username, String password){
+//        driver.findElement(txt_username).sendKeys(username);
+//        driver.findElement(txt_password).sendKeys(password);
+//        driver.findElement(btn_login).click();
+//    }
 
 
 
