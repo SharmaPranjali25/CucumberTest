@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 //        features = {"src/test/java/Features/login.feature"},
-        features = {"src/test/java/Features/Tags.feature"},
+        features = {"src/test/java/Features/Backgrounddemo.feature"},
         glue = {"StepDefinitions"},
         tags="@smoke or not @regression"
 )
