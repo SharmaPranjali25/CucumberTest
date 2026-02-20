@@ -1,8 +1,10 @@
 
-/*
+
 package StepDefinitions;
 
 
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -15,6 +17,15 @@ public class login_POM_StepDefinition {
     WebDriver driver;
     loginPage login;
 
+//    @Before
+//    public void setUp(){
+//
+//    }
+//
+//    @After
+//    public void afterMethod(){
+//
+//    }
     // Browser Launch
     @Given("browser is open")
     public void browser_is_open() {
@@ -61,4 +72,4 @@ public class login_POM_StepDefinition {
     }
 }
 
- */
+
